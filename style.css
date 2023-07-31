@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*, h1, p, h2, a, body{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width:100%;
+    min-height:200px;
+}
+.page{
+    width:1440px;
+    min-height:200px;
+}
+.main{
+    width:1440px;
+    height:822px;
+    border-radius:0, 0, 64px, 64px;
+    background-image:url("imgs/bg-image.png");
+    padding-top:32px;
+    background-size:cover;
+}
+.header{
+    width:1440px;
+    height:48px;
+    display:flex;
+}
+.header-wrap{
+    width:1360px;
+    height:48px;
+    display:flex;
+    margin:auto;
+}
+.logo{
+    width:88px;
+    height:36px;
+    background-image: url("imgs/logo.png");
+    background-size:cover;
+    margin-right:150px;
+    padding-top:2px;
+}
+.menu{
+    width:857px;
+    height:36px;
+    display:flex;
+    padding-top:12px;
+}
+.menu li{
+    min-width:40px;
+    height:24px;
+    display:block;
+    align-items:center;
+}
+.menu li a{
+    line-height:24px;
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    font-family:'Manrope', sans-serif;
+    opacity:70%;
+    max-width:97px;
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    margin-right:36px;
+}
+.login{
+    display:flex;
+    width:170px;
+    height:48px;
+    margin-left:123px;
+}
+.login-text{
+    width:114px;
+    height:40px;
+    margin-top:4px;
+    display:flex;
+    flex-direction: column;
+}
+.welcome, .name{
+    font-size:14px;
+    line-height:14px;
+}
+.welcome{
+    line-height:20px;
+    font-family:'Manrope', sans-serif;
+    font-size:14px;
+    text-align:right;
+    color:grey;
+}
+.name{
+    font-family:'Poppins', sans-serif;
+    color:white;
+}
+.login-imgs{
+    display:flex;
+    width:48px;
+    height:48px;
+    margin-left:8px;
+    z-index:1;
+}
+.avatar{
+    width:48px;
+    height:48px;
+    border-radius:100%;
+    z-index:0;
+    background-image:url("imgs/woman.png")
+}
+.status{
+    border-radius:100%;
+    background-color:red;
+    width:12px;
+    height:12px;
+}
