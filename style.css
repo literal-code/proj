@@ -7,10 +7,12 @@
 .wrapper{
     width:100%;
     min-height:200px;
+    margin:auto;
 }
 .page{
     width:1440px;
     min-height:200px;
+    margin:auto;
 }
 .main{
     width:1440px;
@@ -111,4 +113,18 @@
     background-color:red;
     width:12px;
     height:12px;
+}
+.discover{
+    width:1360px;
+    min-height:300px;
+    margin-left:40px;
+}
+.discover p{
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    font-size:48px;
+    margin-top:184px;
+    line-height:62px;
+    color:white;
+    margin-left:148.5px;
 }
