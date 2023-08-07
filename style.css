@@ -272,11 +272,13 @@ li{
     height:112px;
     display:flex;
 }
-.dest-upper h1{
+.dest-upper h1, .upper-part h1, .ta-upper h1{
     font-family:'Poppins', sans-serif;
     font-weight:600;
     font-size:32px;
     line-height:48px;
+}
+.dest-upper h1{
     width:1240px;
 }
 .dest-search{
@@ -325,4 +327,66 @@ li{
     font-size:14px;
     line-height:20px;
     font-weight:400px;
+}
+.hotel-restaurants{
+    width:1360px;
+    height:558px;
+    margin-top:120px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.upper-part{
+    width: 100%;
+    height:112px;
+    display:flex;
+}
+.view-all{
+    width:144px;
+    height:16px;
+    padding:10px;
+    border-radius:12px;
+    background-color:#F6F4FF;
+    display:flex;
+    float:right;
+}
+.upper-part h1{
+    width:305.50px;
+    margin-right:890.5px;
+}
+.view-all p{
+    font-family:'Poppins',sans-serif;
+    color:#7B61FF;
+    line-height:16px;
+    margin:0;
+    width:133px;
+}
+.view-all img{
+    width:20px;
+    height:20px;
+    margin-left:4px;
+}
+.lower-part{
+    width:100%;
+    height:446px;
+    display:flex;
+}
+.lower-part li{
+    width:316px;
+    height:446px;
+    margin-right:32px;
+}
+.lower-part li img{
+    width:16px;
+    height:16px;
+    margin-bottom:10px;
+}
+.lower-part li h2{
+    font-family:'Poppins', sans-serif;
+    font-weight:500;
+    font-size:16px;
+    height:16px;
+}
+.lower-part li p{
+    font-family:'Poppins', sans-serif;
+    font-size:14px;
 }
