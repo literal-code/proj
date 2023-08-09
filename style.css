@@ -376,8 +376,8 @@ li{
     margin-right:32px;
 }
 .lower-part li img{
-    width:16px;
-    height:16px;
+    width:316px;
+    height:380px;
     margin-bottom:10px;
 }
 .lower-part li h2{
@@ -389,4 +389,24 @@ li{
 .lower-part li p{
     font-family:'Poppins', sans-serif;
     font-size:14px;
+    color:gray;
+}
+.lower-part .icon{
+    width:16px;
+    height:16px;
+    margin-bottom:0;
+    margin-right:4px;
+    margin-left:2px;
+}
+.lower-part .hotel-location{
+    width:316px;
+    height:20px;
+    display:flex;
+    margin-top:12px;
+}
+.lower-part .star{
+    width:88px;
+    height:16px;
+    margin-left:92px;
+    margin-bottom:2px;
 }
